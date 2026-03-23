@@ -1087,11 +1087,14 @@ textarea::placeholder {
     border-radius: var(--radius-lg);
   }
 
-  .workspaceHeader,
-  .createPanelHeader,
   .createPanelFooter {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .createPanelHeader,
+  .workspaceHeader {
+    flex-direction: row;
   }
 
   .filterPills {
