@@ -1,5 +1,5 @@
-import { createStore } from './core/core.js';
-import Home from './src/app/pages/home/Home.js';
+import { createStore } from '../../core/core.js';
+import Home from './pages/home/Home.js';
 
 const template = (state) => 
     `
@@ -16,5 +16,5 @@ const app = createStore({
     template: template
 })
 
-app
+app;
 
