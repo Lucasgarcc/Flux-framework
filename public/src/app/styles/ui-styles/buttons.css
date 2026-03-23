@@ -1,0 +1,105 @@
+.button {
+    --button-gap: 0.45rem;
+    --button-padding-y: 0.9rem;
+    --button-padding-x: 1.05rem;
+    --button-border: #373A40;
+    --button-bg: #222222;
+    --button-color: #ffffff;
+    --button-radius: 10px;
+    --button-hover-bg: #111111;
+    --button-hover-color: #ffffff;
+    --button-hover-border: #111111;
+    --button-focus: rgba(17, 17, 17, 0.08);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--button-gap);
+    padding: var(--button-padding-y) var(--button-padding-x);
+    border: 1px solid var(--button-border);
+    background-color: var(--button-bg);
+    color: var(--button-color);
+    border-radius: var(--button-radius);
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.button:hover,
+.button:focus {
+    outline: none;
+    background-color: var(--button-hover-bg);
+    color: var(--button-hover-color);
+    border-color: var(--button-hover-border);
+}
+
+.button:focus {
+    box-shadow: 0 0 0 3px var(--button-focus);
+}
+
+.button-secondary {
+    --button-bg: #373A40;
+    --button-color: #ffffff;
+    --button-border: #373A40;
+    --button-hover-bg: #111111;
+    --button-hover-color: #ffffff;
+    --button-hover-border: #111111;
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+    background: var(--button-hover-bg);
+    color: var(--button-hover-color);
+    border-color: var(--button-hover-border);
+}
+
+.button-ghost {
+    --button-bg: #373A40;
+    --button-color: #ffffff;
+    --button-border: #373A40;
+    --button-hover-bg: #111111;
+    --button-hover-color: #ffffff;
+    --button-hover-border: #111111;
+}
+
+.button-ghost:hover,
+.button-ghost:focus {
+    background: var(--button-hover-bg);
+    color: var(--button-hover-color);
+    border-color: var(--button-hover-border);
+}
+
+.button-icon {
+    width: 2.65rem;
+    height: 2.65rem;
+    padding: 0;
+    border-radius: 10px;
+    font-size: 1.35rem;
+    line-height: 1;
+}
+
+.button-wide {
+    width: 100%;
+}
+
+.button-cancel {
+    --button-bg: #f4f4f4;
+    --button-color: #373A40;
+    --button-border: #cfcfcf;
+    --button-hover-bg: #ecebeb;
+    --button-hover-color: #111111;
+    --button-hover-border: #bdbdbd;
+}
+  
+.button-cancel:hover,
+.button-cancel:focus {
+    background: var(--button-hover-bg);
+    color: var(--button-hover-color);
+    border-color: var(--button-hover-border);
+}
