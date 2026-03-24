@@ -152,7 +152,7 @@ Acesse `http://localhost:3000`
 
 O projeto não tem build — é JavaScript puro servido como arquivo estático.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/seu-user/flux)
+[![Deploy with Vercel](https://vercel.com/button)](https://flux-framework.vercel.app/)
 
 Ou manualmente:
 1. Importe o repositório na [Vercel](https://vercel.com)
