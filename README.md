@@ -8,10 +8,10 @@ Sem React. Sem Vue. Sem dependências. Só JavaScript puro.
 
 [Ver Demo](https://flux-framework.vercel.app/) · [Reportar Bug](https://github.com/Lucasgarcc/Flux-framework/blob/main/public/core/docs/debugging/DEBUGGING.md)
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![ES Modules](https://img.shields.io/badge/ES_Modules-007ACC?style=flat&logo=javascript&logoColor=white)
-![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen?style=flat)
-![Deploy](https://img.shields.io/badge/deploy-Vercel-black?style=flat&logo=vercel)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://www.javascript.com/)
+[![ES Modules](https://img.shields.io/badge/ES_Modules-007ACC?style=flat&logo=javascript&logoColor=white)](https://esmodules.com/)
+[![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen?style=flat)](https://www.npmjs.com/package/dependency)
+[![Deploy](https://img.shields.io/badge/deploy-Vercel-black?style=flat&logo=vercel)](https://vercel.com)
 
 </div>
 
