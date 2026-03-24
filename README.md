@@ -6,7 +6,7 @@
 
 Sem React. Sem Vue. Sem dependências. Só JavaScript puro.
 
-[Ver Demo](https://flux.vercel.app) · [Reportar Bug](https://github.com/seu-user/flux/issues)
+[Ver Demo](https://flux-framework.vercel.app/) · [Reportar Bug](https://github.com/Lucasgarcc/Flux-framework/blob/main/public/core/docs/debugging/DEBUGGING.md)
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![ES Modules](https://img.shields.io/badge/ES_Modules-007ACC?style=flat&logo=javascript&logoColor=white)
@@ -189,7 +189,7 @@ A resposta é sim — e o processo de construir o motor do zero trouxe clareza s
 
 Feito por **Lucas Garcia**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/seu-user)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-garcia-l/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Lucasgarcc)
 
 </div>

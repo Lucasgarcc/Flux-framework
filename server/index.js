@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import handler from 'serve-handler';
 import { createServer } from 'http';
+import { networkInterfaces } from 'os';
 
 // O objeto de rotas do seu framework
 const routes = {
@@ -12,6 +13,17 @@ const routes = {
       uptime: process.uptime()
     }));
   },
+};
+const getLocalIP = () => {
+  const nets = networkInterfaces();
+  for (const interfaces of Object.values(nets)) {
+      for (const net of interfaces) {
+          if (net.family === 'IPv4' && !net.internal) {
+              return net.address;
+          }
+      }
+  }
+  return 'localhost';
 };
 
 const server = createServer((request, response) => {
@@ -33,6 +45,8 @@ const PORT = 3000;
 const nameFramework = 'mini framework';
 
 server.listen(PORT, () => {
+  const ip = getLocalIP();
   console.log(`\x1b[34m%s\x1b[0m`, `🚀 ${nameFramework} v1.0.0`);
   console.log(`✔️ Servidor ativo em http://localhost:${PORT}`);
+  console.log(`✔️  Network: http://${ip}:${PORT}`);
 });
