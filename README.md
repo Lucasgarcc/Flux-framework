@@ -21,7 +21,7 @@ Sem React. Sem Vue. Sem dependências. Só JavaScript puro.
 
 Flux é um task manager desenvolvido do zero com o objetivo de entender como frameworks modernos funcionam por baixo dos panos.
 
-Em vez de usar React ou Vue, o projeto implementa seu próprio motor reativo em JavaScript puro — com os mesmos conceitos que grandes frameworks usam internamente: reatividade via Proxy, reconciliação de DOM via Diff e gerenciamento de eventos via Dispatch.
+Em vez de usar React ou Vue, o projeto implementa seu próprio core reativo em JavaScript puro — com os mesmos conceitos que grandes frameworks usam internamente: reatividade via Proxy, reconciliação de DOM via Diff e gerenciamento de eventos via Dispatch.
 
 O resultado é um app funcional, reativo e modular — provando que os fundamentos da web são suficientes para construir interfaces complexas.
 
@@ -38,7 +38,7 @@ O resultado é um app funcional, reativo e modular — provando que os fundament
 
 ---
 
-## O Motor Reativo
+## O Core Reativo
 
 O coração do projeto é um mini framework construído do zero com 4 pilares:
 
@@ -110,7 +110,7 @@ flux/
 │   ├── index.html
 │   ├── app/
 │   │   ├── js/
-│   │   │   └── motor.js          # motor reativo
+│   │   │   └── core.js          # core reativo
 │   │   ├── pages/
 │   │   │   └── Template.js       # template principal
 │   │   └── components/
@@ -166,7 +166,7 @@ Ou manualmente:
 
 Este projeto foi construído para responder uma pergunta: **é possível construir uma interface reativa complexa sem nenhum framework?**
 
-A resposta é sim — e o processo de construir o motor do zero trouxe clareza sobre o que React, Vue e Angular fazem internamente:
+A resposta é sim — e o processo de construir o core (motor) do zero trouxe clareza sobre o que React, Vue e Angular fazem internamente:
 
 - Por que o estado não pode ser mutado diretamente
 - Como o Virtual DOM decide o que atualizar
